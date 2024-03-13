@@ -1,5 +1,5 @@
     /**
-     * Author laulimxiao
+     * Author Cat
      */
 
     var offsetX = $("#loveHeart").width() / 2;
@@ -12,8 +12,8 @@
     together.setSeconds(0);
     together.setMilliseconds(0);
 
-    $('#startDate').text('*' + formatDate(together) + ','); // 相识时间
-    $('#untilDate').text('*' + formatDate(new Date()) + '.'); // 今日
+    $('#startDate').text('*' + formatDate(together) + ',');
+    $('#untilDate').text('*' + formatDate(new Date()) + '.');
 
 
     if (!document.createElement('canvas').getContext) {
